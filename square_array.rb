@@ -1,7 +1,7 @@
 def square_array(array)
   # your code here
   array.collect {|num| num * num}
-  a
+  array
 end
 
 def each_square_array(array)
