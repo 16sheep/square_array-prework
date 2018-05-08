@@ -1,4 +1,4 @@
 def square_array(array)
   # your code here
-  new_arr = array.each {|x| Math.sqrt(x) }
+  square_array = array.each {|x| Math.sqrt(x) }
 end
