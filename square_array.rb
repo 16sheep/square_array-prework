@@ -1,6 +1,6 @@
 def square_array(array)
   # your code here
-  array.collect {|num| num * num}
+  array.collect! {|num| num * num}
   array
 end
 
